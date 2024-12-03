@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import your components/pages
 import HomePage from './components/HomePage';
-import FarmerDashboard from './components/FarmerDashboard';
+import FarmerDashBoard from './components/Farmer/FarmerDashBoard';
 import BuyerDashboard from './components/BuyerDashBoard';
 import AgentDashboard from './components/AgentDashBoard';
 import Login from './components/LoginPage';
@@ -19,7 +19,7 @@ const AppRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/farmer-dashboard" element={<FarmerDashboard />} />
+        <Route path="/farmer-dashboard" element={<FarmerDashBoard />} />
         <Route path="/buyer-dashboard" element={<BuyerDashboard />} />
         <Route path="/agent-dashboard" element={<AgentDashboard />} />
         <Route path="/askingpage" element={<AskingPage />} />

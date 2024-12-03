@@ -21,7 +21,7 @@ const LoginPage = () => {
     // Example authentication (replace with real authentication logic)
     if (email === 'admin@example.com' && password === 'password123') {
       // Redirect to dashboard or other appropriate page
-      navigate('/admin-dashboard');
+      navigate('/farmer-dashboard');
     } else {
       setErrorMessage('Invalid email or password.');
     }
