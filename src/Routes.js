@@ -1,7 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import your components/pages
+
 import HomePage from './components/HomePage';
 import FarmerDashBoard from './components/Farmer/FarmerDashBoard';
 import BuyerDashboard from './components/BuyerDashBoard';
